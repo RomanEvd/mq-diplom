@@ -2,4 +2,9 @@
   .header {
     position: relative;
     background: url(images/banner-bg.jpg);
+  }
+
+  .nav {
+    display: flex;
+  }
 }
