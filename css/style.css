@@ -1,5 +1,5 @@
 @media (min-width 1200px) {
-  header {
+  .header {
     position: relative;
     background: url(images/banner-bg.jpg);
 }
