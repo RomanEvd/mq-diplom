@@ -88,9 +88,7 @@
             </ul>
       </nav>
       </div>
-    <div class="title_container">
      <h1 class="heading header-heading">Блог о творчестве, спорте, и образе жизни</h1>
-    </div>
   </div>
 </header>
 
@@ -102,20 +100,20 @@
             <div class="trend-container">
               <ul class="list trend-tags-list">
                 <li class="trend-tag">
-                  <a href="#" class="tag-link">
+                  <a href="#" class="tag-links">
                     <span>lifestyle</span>
                   </a>
                 </li>
                 <li class="trend-tag">
-                  <a href="#" class="tag-link">
+                  <a href="#" class="tag-links">
                     <span>interior</span>
                   </a>
                 </li>
               </ul>
               <a href="#" class="trend-link">
-                <strong class="heading trend-heading">
+                <h4 class="heading trend-heading">
                   Сейчас в тренде: сад на подоконнике
-                </strong>
+                </h4>
               </a>
             </div>
           </li>
@@ -123,15 +121,15 @@
             <div class="trend-container">
               <ul class="list trend-tags-list">
                 <li class="trend-tag">
-                  <a href="#" class="tag-link">
+                  <a href="#" class="tag-links">
                     <span>food</span>
                   </a>
                 </li>
               </ul>
               <a href="#" class="trend-link">
-                <strong class="heading trend-heading">
+                <h4 class="heading trend-heading">
                   сыры на красивых картинках из интернета: какие они на вкус?
-                </strong>
+                </h4>
               </a>
             </div>
           </li>
@@ -139,20 +137,20 @@
             <div class="trend-container">
               <ul class="list trend-tags-list">
                 <li class="trend-tag">
-                  <a href="#" class="tag-link">
+                  <a href="#" class="tag-links">
                     <span>lifestyle</span>
                   </a>
                 </li>
                 <li class="trend-tag">
-                  <a href="#" class="tag-link">
+                  <a href="#" class="tag-links">
                     <span>travel</span>
                   </a>
                 </li>
               </ul>
               <a href="#" class="trend-link">
-                <strong class="heading trend-heading">
+                <h4 class="heading trend-heading">
                   собираемся в первый поход в горы
-                </strong>
+                </h4>
               </a>
             </div>
           </li>
@@ -160,20 +158,20 @@
             <div class="trend-container">
               <ul class="list trend-tags-list">
                 <li class="trend-tag">
-                  <a href="#" class="tag-link">
+                  <a href="#" class="tag-links">
                     <span>food</span>
                   </a>
                 </li>
                 <li class="trend-tag">
-                  <a  href="#"  class="tag-link">
+                  <a  href="#"  class="tag-links">
                     <span>health</span>
                   </a>
                 </li>
               </ul>
               <a href="#" class="trend-link">
-                <strong class="heading trend-heading">
+                <h4 class="heading trend-heading">
                   Сейчас в тренде: сколько витамина в лимонах?
-                </strong>
+                </h4>
               </a>
             </div>
           </li>
@@ -378,7 +376,12 @@
 
       <!--поисковая строка-->
       <form class="new-posts-search">
+     <section class="search-box-input">
+      <label for="search-box">
+        <span class="search-field">Поле поиска</span>
         <input type="search" placeholder="Найти..." class="sidebar-input">
+        </input>
+      </label>
         <button class="btn search-btn">
           <span class="search-text">поиск</span>
         </button>
@@ -393,8 +396,8 @@
         <button class="btn subscription-btn">
           <span>подписаться</span>
         </button>
+      </section>
       </form>
-    </section>
 
     <!--Теги-->
     <section class="tags">
@@ -498,8 +501,11 @@
   <ul class="products-list">
     <li class="product product-pillow">
       <picture class="product-picture">
+        <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 361px) and (max-width: 767px)">
+        <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 360px)" class="mobile-img">
         <img src="images/shop-item-desk1.jpg" alt="подушки на диван" class="product-pillow-img">
       </picture>
+      <div class="products-heading-description">
        <article class="product-heading-description">
         <h4 class="product-heading">
           <a href="" class="product-heading-link">
@@ -519,11 +525,15 @@
             <button class="product__button" type="button">в магазин</button>
           </div>
        </article>
+     </div>
     </li>
     <li class="product product-hare">
        <picture class="product-picture">
-        <img src="images/shop-item-desk2.jpg" alt="кукла зайчик">
+         <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 361px) and (max-width: 767px)">
+         <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 360px)" class="mobile-img">
+         <img src="images/shop-item-desk2.jpg" alt="кукла зайчик">
        </picture>
+       <div class="products-heading-description">
          <article class="product-heading-description">
           <h4 class="product-heading">
           <a href="" class="product-heading-link">
@@ -540,11 +550,15 @@
             <button class="product__button" type="button">в магазин</button>
           </div>
           </article>
+        </div>
     </li>
     <li class="product product-frame">
       <picture class="product-picture">
+        <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 361px) and (max-width: 767px)">
+        <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 360px)" class="mobile-img">
         <img src="images/shop-item-desk3.jpg" alt="шестиугольная рамка">
       </picture>
+      <div class="products-heading-description">
       <article class="product-heading-description">
         <h4 class="product-heading">
           <a href="" class="product-heading-link">
@@ -564,6 +578,7 @@
           <button class="product__button" type="button">в магазин</button>
         </div>
       </article>
+    </div>
     </li>
   </ul>
 </section>
