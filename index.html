@@ -56,34 +56,22 @@
           <nav class="main-menu">
             <ul class="list main-menu-list">
               <li class="main-menu-item">
-                <a href="#" class="link main-menu-link">
-                  <span class="main-menu-text">Главная</span>
-                  </a>
+                <a href="#" class="link main-menu-link">Главная</a>
               </li>
               <li class="main-menu-item">
-                <a href="#" class="link main-menu-link">
-                  <span class="main-menu-text">Посты</span>
-                </a>
+                <a href="#" class="link main-menu-link">Посты</a>
               </li>
               <li class="main-menu-item">
-                <a href="#" class="main-menu-link">
-                  <span class="main-menu-text">Статьи</span>
-                </a>
+                <a href="#" class="main-menu-link">Статьи</a>
               </li>
               <li class="main-menu-item">
-                <a href="#" class="main-menu-link">
-                  <span class="main-menu-text">Теги</span>
-                </a>
+                <a href="#" class="main-menu-link">Теги</a>
               </li>
               <li class="main-menu-item">
-                <a href="#" class="main-menu-link">
-                  <span class="main-menu-text">Темы</span>
-                </a>
+                <a href="#" class="main-menu-link">Темы</a>
               </li>
               <li class="main-menu-item">
-                <a href="#" class="main-menu-link">
-                  <span class="main-menu-text">Контакты</span>
-                </a>
+                <a href="#" class="main-menu-link">Контакты</a>
               </li>
             </ul>
       </nav>
@@ -373,10 +361,11 @@
           </article>
         </li>
       </ul>
+    </section>
 
       <!--поисковая строка-->
-      <form class="new-posts-search">
      <section class="search-box-input">
+      <form class="new-posts-search">
       <label for="search-box">
         <span class="search-field">Поле поиска</span>
         <input type="search" placeholder="Найти..." class="sidebar-input">
@@ -392,12 +381,14 @@
         рассылка
       </h3>
       <form class="subscription">
+       <label for="search-box">
         <input type="email" placeholder="Ваш email-адрес" class="sidebar-input">
         <button class="btn subscription-btn">
           <span>подписаться</span>
         </button>
-      </section>
-      </form>
+      </label>
+     </form>
+    </section>
 
     <!--Теги-->
     <section class="tags">
@@ -505,7 +496,6 @@
         <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 360px)" class="mobile-img">
         <img src="images/shop-item-desk1.jpg" alt="подушки на диван" class="product-pillow-img">
       </picture>
-      <div class="products-heading-description">
        <article class="product-heading-description">
         <h4 class="product-heading">
           <a href="" class="product-heading-link">
@@ -521,11 +511,10 @@
             <span class="product__price">
               <span class="product__price-value">800 ₽</span>
             </span>
-            </div>
+          </div>
             <button class="product__button" type="button">в магазин</button>
           </div>
        </article>
-     </div>
     </li>
     <li class="product product-hare">
        <picture class="product-picture">
@@ -533,8 +522,7 @@
          <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 360px)" class="mobile-img">
          <img src="images/shop-item-desk2.jpg" alt="кукла зайчик">
        </picture>
-       <div class="products-heading-description">
-         <article class="product-heading-description">
+       <article class="product-heading-description">
           <h4 class="product-heading">
           <a href="" class="product-heading-link">
             кукла «зайчик»
@@ -549,16 +537,15 @@
             </div>
             <button class="product__button" type="button">в магазин</button>
           </div>
-          </article>
-        </div>
-    </li>
+        </article>
+      </li>
     <li class="product product-frame">
       <picture class="product-picture">
         <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 361px) and (max-width: 767px)">
         <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 360px)" class="mobile-img">
         <img src="images/shop-item-desk3.jpg" alt="шестиугольная рамка">
       </picture>
-      <div class="products-heading-description">
+
       <article class="product-heading-description">
         <h4 class="product-heading">
           <a href="" class="product-heading-link">
@@ -578,7 +565,7 @@
           <button class="product__button" type="button">в магазин</button>
         </div>
       </article>
-    </div>
+
     </li>
   </ul>
 </section>
